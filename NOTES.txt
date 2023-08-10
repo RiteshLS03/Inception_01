@@ -1,0 +1,51 @@
+1)    What is Emmet ?
+
+Emmet it's like tool , which helps us to write HTML, CSS faster using abbervations that are then converted into blocks.
+for EX :- rafce , we have seen this in React by using this we can create functional components
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+2)    Difference between library and framework ?
+
+i) Library - Library is a collection of pre-written code that can be used to perform common    tasks or add specific functionality to a program . Libraries are oftern written in a specific programming lanfulage and are designed to be easily reusable and modular.Library collection code are tested and dubugged code that can be reused and make it time save time and make faster projects . 
+
+For example :- jQuery , ReactJS
+
+ii) Framework - A framework is like a foundation for developers to build applications for a particular platform. It contains reusable code written to perform common tasks, with code provided by the custom fucntion developer. Frameworks can contain defined and undefined objects and functions that developers can use to build their applications. 
+
+For example :- Django , Ruby on Rails , Laravel
+
+3)    What is CDN ?
+
+CDN basically stands for Content Delivery Network. CDN is a geographically distributed servers that work together to deliver web content and other digital assets. such as images, videos, CSS, Javascript etc. to use in fast and efficient manner.
+
+Benefits :- 
+i) Fastest Content Delivery (ii) High Availability (iii)Improved Security (iv) Scalibility
+
+4)   Why React known as React ?
+
+React is named React because of it's ability to react changes in data. React called React because it was designed to be a declarative, efficient and flexible javascript library for building user interfaces.
+
+5)   What is crossorigin in script tag ?
+
+The crossorigin attribute sets the mode of the request to an HTTP CORS Request. The purpose of crossorigin attribute is used to share the resources from one domain to another domain. Basically, it is used to handle the CORS request. It is used to handle the CORS request that checks whether it is safe to allow for sharing the resources from other domains.
+
+6) What is difference between React and ReactDOM ?
+
+The react package is contains the core code as React.createElement(), React.Component, React.Children, and other helpers related to elements and component classes. 
+
+while the react-dom package deals with rendering React Components in the browser. It contains the API's required for interacting with the browser's DOM and efficiently updating only the parts that need update. most commonly used function's in this package are ReactDOM.render().
+
+7)  what is difference between react.development.js and react.production.js files via CDN ?
+
+Development is the stage of an application before it's made public while production is the term used for the same application when it's made public. Development build is several times (maybe 3-5x) slower than the production build.
+
+8) what is async and defer ?
+
+async - The async attribute is a boolean attribute. The script is downloaded in parallel(in the background) to parsing the page, and executed as soon as it is available (do not block HTML DOM construction during downloading process) and don’t wait for anything.
+
+Syntax :- <script src="demo_async.js" async></script>
+
+defer - The defer attribute is a boolean attribute. The script is downloaded in parallel(in the background) to parsing the page, and executed after the page has finished parsing(when browser finished DOM construction). The defer attribute tells the browser not to wait for the script. Instead, the browser will continue to process the HTML, build DOM.
+
+Syntax - <script src="demo_defer.js" defer></script>
